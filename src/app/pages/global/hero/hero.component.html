@@ -1,0 +1,10 @@
+<div class="hero__container" id="destacados">
+    <h2 class="hero__title">{{ hero.title }}</h2>
+    <div class="hero__gallery">
+        <div *ngFor="let img of hero.gallery">
+            <img src="{{img.src}}" alt="{{img.alt}}">
+        </div>
+
+    </div>
+</div>
+

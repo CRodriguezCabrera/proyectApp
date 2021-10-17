@@ -1,0 +1,24 @@
+.form__print{
+    background-image: url(https://i.imgur.com/KgfbkrW.png);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+   .form__list{
+       margin-right: 40px;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+   }
+ 
+}
+.footer__container{
+    background-color: rgb(255, 72, 0);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    
+    height: 30px;
+   
+}

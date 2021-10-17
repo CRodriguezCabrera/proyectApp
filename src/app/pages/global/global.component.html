@@ -1,0 +1,24 @@
+<app-nav [nav]="structureData.nav"></app-nav>
+<app-hero [hero]="structureData.hero"></app-hero> 
+<div>
+    <!-- <app-form [form]="structureData.form" (emitText)="setMessage($event)" (emitTextTwo)="setMessageTwo($event)" 
+(emitTextThree)="setMessageThree($event)" (emitTextFour)="setMessageFour($event)"></app-form>  -->
+<div class="form__print">
+    <app-form [form]="structureData.form" (emitText)="setMessage($event)" (emitTextTwo)="setMessageTwo($event)" 
+    (emitTextThree)="setMessageThree($event)" (emitTextFour)="setMessageFour($event)"></app-form>      
+    
+    <ul class="form__list">
+        <h2>Datos enviados:</h2>
+        <p>Nombre y Apellidos: {{ sonMessage }}</p>
+        <p>Nº Telefono: {{ sonMessageTwo }}</p>
+        <p>e-mail: {{ sonMessageThree }}</p>
+        <p>Comentarios: {{ sonMessageFour }}</p>
+
+    </ul>
+   
+    </div>     
+</div>
+<div class="footer__container">
+    <p>Copiright© Inmobiliaria inventada</p>
+</div>
+

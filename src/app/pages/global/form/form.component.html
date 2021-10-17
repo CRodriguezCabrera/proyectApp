@@ -1,0 +1,15 @@
+
+<div class="form__container" id="contacto">
+    <h2 class="form__title">CONTACTE CON NOSOTROS </h2>
+    <p class="form__description">Si desea que contactemos con usted, facilitenos sus datos y estaremos encantados de ayudarle</p>
+   
+    <input [(ngModel)]="message" placeholder= "Nombre" class="form__input">
+    <input [(ngModel)]="messageTwo" placeholder= "Telefono" class="form__input">
+    <input [(ngModel)]="messageThree"  placeholder="Email" class="form__input">
+    <input [(ngModel)]="messageFour" placeholder="Otros Comentarios" class="form__inputComents">
+    <button class="form__button" (click)="sendMessage()" (click)="sendMessageTwo()" (click)="sendMessageThree()" (click)="sendMessageFour()">Enviar</button>
+</div> 
+
+
+    
+

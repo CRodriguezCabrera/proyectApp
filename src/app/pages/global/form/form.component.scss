@@ -1,0 +1,29 @@
+
+
+
+.form__container{
+    
+    /* background-image: url(https://i.imgur.com/KgfbkrW.png); */
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    margin-left: 70px;
+    .form__description{
+        width: 70%;
+    }
+
+    .form__input{
+        width: 30%;
+    }
+    .form__inputComents{
+        width: 50%;
+        height: 200px;
+        text-align:center;
+    }
+    .form__button{
+        width: 100px;
+
+    }
+}
+
